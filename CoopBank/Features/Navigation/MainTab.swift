@@ -38,7 +38,7 @@ struct MainTabView : View {
             .tag(AppTab.budgets)
             
             NavigationStack {
-                PlaceholderView(title: "Add", icon: "plus")
+                AddBudgetView()
             }
             .tabItem {
                 Label {
@@ -50,12 +50,10 @@ struct MainTabView : View {
                             .withRenderingMode(.alwaysOriginal)
                         )
                     }
-
                 }
             }
             .tag(AppTab.add)
             
-        
             NavigationStack {
                 PlaceholderView(title: "Report", icon: "chart.line.text.clipboard")
             }
