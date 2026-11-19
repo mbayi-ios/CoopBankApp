@@ -14,7 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello CoopBank App")
-                .background(AppColors.primary)
+                .background(AppColor.primary)
         }
         .padding()
     }

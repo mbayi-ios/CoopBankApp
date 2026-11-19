@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct AppColors {
+struct AppColor {
     
     // MARK: - Brand Colors
     static let primary = Color(hex: "80BA27")
