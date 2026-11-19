@@ -54,7 +54,7 @@ struct TransactionRow: View {
         .frame(maxWidth: .infinity)
         .background(Color.white)
         .overlay {
-            RoundedRectangle(cornerRadius: 15)
+            RoundedRectangle(cornerRadius: 10)
                 .stroke(Color.gray.opacity(0.15), lineWidth: 1)
         }
     }
