@@ -22,7 +22,7 @@ struct SectionHeader: View {
             if let actionTitle, let action {
                 HStack {
                     Button(actionTitle, action: action)
-                    Image(systemName: "arrow.up.right")
+                    Image(systemName: "arrow.up.right.square")
                 }
                 .font(AppTypography.caption)
                 .fontWeight(.semibold)
