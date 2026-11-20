@@ -34,6 +34,7 @@ struct AddBudgetView: View {
                     .font(.system(size: 17, weight: .bold))
                     .foregroundStyle(.primary)
 
+                // Category
                 VStack(alignment: .leading, spacing: 9) {
                     fieldLabel("Category")
 
